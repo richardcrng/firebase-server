@@ -59,7 +59,7 @@
     "cli": "^1.0.1",
     "daemon": "^1.1.0",
     "debug": "^3.1.0",
-    "firebase": ">= 5.0.0",
+    "firebase": "7.24.0",
     "jwt-simple": "0.5.6",
     "lodash": "^4.17.5",
     "targaryen": "^3.1.0",
