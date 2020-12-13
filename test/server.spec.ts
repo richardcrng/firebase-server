@@ -3,7 +3,8 @@
  */
 
 import * as assert from 'assert';
-import * as firebase from 'firebase';
+import * as firebase from 'firebase/app';
+import 'firebase/database'
 import TokenGenerator = require('firebase-token-generator');
 import * as http from 'http';
 import * as _ from 'lodash';
