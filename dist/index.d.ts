@@ -1,6 +1,6 @@
 /// <reference types="node" />
 import * as firebase from 'firebase/app';
-import 'firebase/database'
+import 'firebase/database';
 import { AddressInfo } from 'net';
 import * as WebSocket from 'ws';
 declare class FirebaseServer {

@@ -13,7 +13,8 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 const debug = require("debug");
-const firebase = require("firebase");
+const firebase = require("firebase/app");
+require("firebase/database");
 const _ = require("lodash");
 const ws_1 = require("ws");
 const firebase_hash_1 = require("./lib/firebase-hash");
