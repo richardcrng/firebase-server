@@ -5,7 +5,8 @@
  */
 
 import * as debug from 'debug';
-import * as firebase from 'firebase';
+import * as firebase from 'firebase/app';
+import 'firebase/database'
 import * as _ from 'lodash';
 import { AddressInfo } from 'net';
 import * as WebSocket from 'ws';
